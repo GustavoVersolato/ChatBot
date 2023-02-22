@@ -1,0 +1,55 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks","não"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "TCC_Objetivo",
+    "patterns":["O TCC tem qual objetivo?","Qual o objetivo do TCC?"],
+    "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduação. A solução proposta deve ter como base o método científico"]
+  },
+  {
+    "tag": "TCC_Entrega",
+    "patterns":["O que eu preciso entregar do TCC?", "Qual a entrega do TCC?","O que eu preciso entregar?"],
+    "responses":["Uma monografia e um programa ou artefato desenvolvido pelos alunos"]
+  },
+  {
+    "tag": "TCC_Manografia",
+    "patterns":["O que eu preciso fazer na manografia?", "O que apresentar na manografia?"],
+    "responses":["A monografia deve apresentar:\n+uma introdução e objetivos do trabalho\n+conceituação do problema\n+revisão da literatura, que pode incluir um benchmark de soluções de mercado\n+desenvolvimento de arquitetura de solução, engenharia de software e demais técnicas que descrevam a solução proposta\n+discussão dos resultados e considerações finais\n+Toda a monografia é desenvolvida de acordo com o método científico estudado no curso."]
+  },
+  {
+    "tag": "TCC_Programa",
+    "patterns":["O que eu preciso entregar do programa?", "Como é a entrega do artefato?"],
+    "responses":["O artefato/programa deve ser uma solução computacional elaborada em um desenvolvimento de um software (e eventualmente o desenvolvimento de um hardware)."]
+  },
+  {
+    "tag": "TCC_Grupo",
+    "patterns":["Quantas pessoas podem no grupo?", "Quantos integrantes no grupo?"],
+    "responses":["Os grupos devem buscar ter 4 integrantes, se houver 5 sera avaliado com mais critério, e se houver menos de 4 o critério de avaliação é o mesmo para quarteto."]
+  },
+  {
+    "tag": "TCC_Orientador",
+    "patterns":["qual o papel do orientador?","O que o orientador faz?"],
+    "responses":["Cabe ao professor orientador:\n+conduzir o desenvolvimento do trabalho (recomenda-se pelo menos 1h semanal de reunião com o grupo e que estas reuniões sejam evidenciadas pelo grupo)\n+auxiliar os alunos nos métodos de pesquisa\n+auxiliar na busca dos resultados e na reflexão sobre os resultados obtidos.\n+Assegurar que os alunos estejam cumprindo as atividades propostas durante as aulas (principalmente as entregas no MOODLE)\n+Informar ao professor da disciplina eventuais desvios ou situações que mereçam atenção e/ou possam prejudicar a evolução do trabalho ou convivência do grupo"]
+  },
+  {
+    "tag": "TCC_Tema",
+    "patterns":["tenho algum limite para escolher o tema?", "Como escolho o tema?"],
+    "responses":["Os alunos são responsáveis pela escola dos temas a serem abordados em seus trabalhos,os orientadores aconselham alterações ou aperfeiçoamentos na delimitação do escopo ou da metodologia a ser empregada."]
+  },
+  {
+    "tag": "TCC_Disciplina",
+    "patterns":["para que serve o professor de TCC?"],
+    "responses":["Os professores da disciplina de TCC devem:\n+apresentar semanalmente tópicos relevantes sobre metodologia científica e organização do trabalho\n+acompanham a evolução de cada grupo, auxiliando os alunos na condução das atividades (sem interferir na orientação).\n+Validar as entregas no MOODLE.\n+Informar ao professor orientador eventuais desvios ou situações que mereçam atenção e/ou possam prejudicar a evolução do trabalho ou convivência do grupo"]
+  },
+  {
+    "tag": "TCC_Avaliação",
+    "patterns":["como funciona a avaliação do TCC?", "qual a dinamica de avaliação do TCC?"],
+    "responses":["A avaliação final do trabalho é uma composição da avaliação da banca, do professor orientador e dos professores da disciplina de Trabalho de Final de Curso.\n+A avaliação da banca é definitiva, ou seja, é ela quem determina se o trabalho será aprovado ou não.\n+Embora o trabalho seja realizado em grupo, a avaliação será individual, ou seja, o aluno será avaliado por sua contribuição efetiva no trabalho realizado."]
+  }
+]
+}
