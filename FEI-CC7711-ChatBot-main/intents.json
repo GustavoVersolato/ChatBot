@@ -8,7 +8,7 @@
     "responses": ["Até breve","Falou"]
   },
   { "tag": "TCC_Objetivo",
-    "patterns":["O TCC tem qual objetivo?","Qual o objetivo do TCC?"],
+    "patterns":["O TCC tem qual objetivo?","Qual o objetivo do TCC?","Como funciona a disciplina?"],
     "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduação. A solução proposta deve ter como base o método científico"]
   },
   {
@@ -17,13 +17,13 @@
     "responses":["Uma monografia e um programa ou artefato desenvolvido pelos alunos"]
   },
   {
-    "tag": "TCC_Manografia",
-    "patterns":["O que eu preciso fazer na manografia?", "O que apresentar na manografia?"],
+    "tag": "TCC_monografia",
+    "patterns":["O que eu preciso fazer na monografia?", "O que apresentar na monografia?","monografia"],
     "responses":["A monografia deve apresentar:\n+uma introdução e objetivos do trabalho\n+conceituação do problema\n+revisão da literatura, que pode incluir um benchmark de soluções de mercado\n+desenvolvimento de arquitetura de solução, engenharia de software e demais técnicas que descrevam a solução proposta\n+discussão dos resultados e considerações finais\n+Toda a monografia é desenvolvida de acordo com o método científico estudado no curso."]
   },
   {
     "tag": "TCC_Programa",
-    "patterns":["O que eu preciso entregar do programa?", "Como é a entrega do artefato?"],
+    "patterns":["O que eu preciso entregar do programa?", "Como é a entrega do artefato?","Programa"],
     "responses":["O artefato/programa deve ser uma solução computacional elaborada em um desenvolvimento de um software (e eventualmente o desenvolvimento de um hardware)."]
   },
   {
@@ -33,8 +33,8 @@
   },
   {
     "tag": "TCC_Orientador",
-    "patterns":["qual o papel do orientador?","O que o orientador faz?"],
-    "responses":["Cabe ao professor orientador:\n+conduzir o desenvolvimento do trabalho (recomenda-se pelo menos 1h semanal de reunião com o grupo e que estas reuniões sejam evidenciadas pelo grupo)\n+auxiliar os alunos nos métodos de pesquisa\n+auxiliar na busca dos resultados e na reflexão sobre os resultados obtidos.\n+Assegurar que os alunos estejam cumprindo as atividades propostas durante as aulas (principalmente as entregas no MOODLE)\n+Informar ao professor da disciplina eventuais desvios ou situações que mereçam atenção e/ou possam prejudicar a evolução do trabalho ou convivência do grupo"]
+    "patterns":["qual o papel do orientador?","O que o orientador faz?","Como escolho o orientador?"],
+    "responses":["Todo grupo possui um professor orientador escolhido pelos próprios componentes do grupo, podendo ser de qualquer disciplina\nCabe ao professor orientador:\n+conduzir o desenvolvimento do trabalho (recomenda-se pelo menos 1h semanal de reunião com o grupo e que estas reuniões sejam evidenciadas pelo grupo)\n+auxiliar os alunos nos métodos de pesquisa\n+auxiliar na busca dos resultados e na reflexão sobre os resultados obtidos.\n+Assegurar que os alunos estejam cumprindo as atividades propostas durante as aulas (principalmente as entregas no MOODLE)\n+Informar ao professor da disciplina eventuais desvios ou situações que mereçam atenção e/ou possam prejudicar a evolução do trabalho ou convivência do grupo"]
   },
   {
     "tag": "TCC_Tema",
